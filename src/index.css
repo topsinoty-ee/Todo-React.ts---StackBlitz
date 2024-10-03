@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.long-bar-pattern {
+  background: linear-gradient(
+    135deg,
+    oklch(var(--b1) 18.75%, #47d3ff 0 31.25%, #0000 0),
+    repeating-linear-gradient(45deg, #47d3ff -6.25% 6.25%, #474bff 0 18.75%)
+  );
+}
